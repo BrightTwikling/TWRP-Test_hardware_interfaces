@@ -26,6 +26,7 @@ package {
 cc_defaults {
     name: "libkeymint_support_defaults",
     vendor_available: true,
+    recovery_available: true,
     cflags: [
         "-Wall",
         "-Wextra",
