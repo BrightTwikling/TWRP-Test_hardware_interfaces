@@ -28,6 +28,7 @@ cc_binary {
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     vendor: true,
+    recovery_available: true,
     init_rc: ["android.hardware.keymaster@4.0-service.rc"],
     srcs: ["service.cpp"],
 

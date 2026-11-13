@@ -26,6 +26,7 @@ package {
 cc_library {
     name: "libkeymaster4support",
     vendor_available: true,
+    recovery_available: true,
     cflags: [
         "-Wall",
         "-Wextra",

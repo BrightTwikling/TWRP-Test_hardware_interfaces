@@ -26,6 +26,7 @@ package {
 cc_library {
     name: "android.hardware.confirmationui-support-lib",
     vendor_available: true,
+    recovery_available: true,
     host_supported: true,
     srcs: [
         "src/cbor.cpp",

@@ -73,6 +73,7 @@ cc_library_shared {
 cc_binary {
     name: "android.hardware.health@2.1-service",
     vendor: true,
+    recovery_available: true,
     defaults: ["android.hardware.health@2.1-impl-defaults"],
     init_rc: ["android.hardware.health@2.1-service.rc"],
 
